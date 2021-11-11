@@ -4,7 +4,7 @@ using System.Collections.Specialized;
 using Microsoft.Practices.EnterpriseLibrary.Common.Configuration;
 using Microsoft.Practices.Unity.InterceptionExtension;
 
-using static KeLi.HelloPIAB.Properties.Resources;
+using static KeLi.HelloPiab.Properties.Resources;
 
 namespace KeLi.HelloPIAB
 {
