@@ -8,7 +8,7 @@ using Microsoft.Practices.Unity.InterceptionExtension;
 
 using static KeLi.HelloPiab.Properties.Resources;
 
-namespace KeLi.HelloPIAB
+namespace KeLi.HelloPiab.Models
 {
     [ConfigurationElementType(typeof(CustomMatchingRuleData))]
     public class CustomAopMatchRule : IMatchingRule

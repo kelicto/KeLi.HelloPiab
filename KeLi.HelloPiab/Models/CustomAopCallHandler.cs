@@ -6,7 +6,7 @@ using Microsoft.Practices.Unity.InterceptionExtension;
 
 using static KeLi.HelloPiab.Properties.Resources;
 
-namespace KeLi.HelloPIAB
+namespace KeLi.HelloPiab.Models
 {
     [ConfigurationElementType(typeof(CustomCallHandlerData))]
     public class CustomAopCallHandler : ICallHandler

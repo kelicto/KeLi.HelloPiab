@@ -1,4 +1,4 @@
-﻿namespace KeLi.HelloPIAB
+﻿namespace KeLi.HelloPiab.Models
 {
     /// <summary>
     ///     1. Define Interface for Business.

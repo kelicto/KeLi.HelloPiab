@@ -1,6 +1,8 @@
 ﻿using System;
 
-namespace KeLi.HelloPIAB
+using KeLi.HelloPiab.Attributes;
+
+namespace KeLi.HelloPiab.Models
 {
     public class AopTest : IAopTest
     {

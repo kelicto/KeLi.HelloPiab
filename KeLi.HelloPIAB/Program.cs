@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Diagnostics;
 
+using KeLi.HelloPiab.Models;
+
 using Microsoft.Practices.EnterpriseLibrary.PolicyInjection;
 
-namespace KeLi.HelloPIAB
+namespace KeLi.HelloPiab
 {
     internal class Program
     {

@@ -1,9 +1,11 @@
 ﻿using System;
 
+using KeLi.HelloPiab.Models;
+
 using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.InterceptionExtension;
 
-namespace KeLi.HelloPIAB
+namespace KeLi.HelloPiab.Attributes
 {
     [AttributeUsage(AttributeTargets.Method)]
     public class CustomAopCallHandlerAttribute : HandlerAttribute

@@ -58,12 +58,12 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AopTest.cs" />
-    <Compile Include="CustomAopAttribute.cs" />
-    <Compile Include="CustomAopCallHandler.cs" />
-    <Compile Include="CustomAopCallHandlerAttribute.cs" />
-    <Compile Include="CustomAopMatchRule.cs" />
-    <Compile Include="IAopTest.cs" />
+    <Compile Include="Models\AopTest.cs" />
+    <Compile Include="Attributes\CustomAopAttribute.cs" />
+    <Compile Include="Models\CustomAopCallHandler.cs" />
+    <Compile Include="Attributes\CustomAopCallHandlerAttribute.cs" />
+    <Compile Include="Models\CustomAopMatchRule.cs" />
+    <Compile Include="Models\IAopTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -82,5 +82,6 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
